@@ -11,7 +11,7 @@ spec.swift_version = '4.0'
 spec.platform = :ios, "11.0"
 spec.requires_arc = true
 spec.source = { git: "https://github.com/williamhong6891/WYFoundation.git", tag: "v#{spec.version}", submodules: true }
-spec.source_files = "WYFoundation/**/*.{h,swift}"
+spec.source_files = "Sources/**/*.{h,swift}"
 
 spec.dependency "SwiftyBeaver", "~> 1.6.1"
 end
